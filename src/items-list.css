@@ -1,0 +1,46 @@
+.items-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    /* padding: 1px; */
+    margin-bottom: 1px;
+  }
+  
+  .title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .quantity-container {
+    display: flex;
+    align-items: center;
+    margin-left: -100px;
+  }
+  
+  .decrement-button,
+  .increment-button {
+    background-color: #5a9cf79e;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    /* padding: px; */
+  }
+  
+  .decrement-button:hover,
+  .increment-button:hover {
+    background-color: #0067f89e;
+    border-radius: 20%;
+  }
+    
+  .item-input {
+    width: 40px;
+    padding: 4px 8px;
+    font-size: 16px;
+    margin: 0 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+  }
